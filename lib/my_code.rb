@@ -68,9 +68,7 @@ def reduce_to_all_true(source_array)
     index += 1 
   end
   
-  newArray
-  
-  
+  total
 end
 
 def reduce_to_any_true(source_array)
