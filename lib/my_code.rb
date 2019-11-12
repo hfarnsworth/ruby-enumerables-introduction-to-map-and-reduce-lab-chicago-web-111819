@@ -28,7 +28,7 @@ def map_to_double(source_array)
   newArray = []
 
   while index < source_array.length do 
-    newArray[index] = -1 * source_array[index]
+    newArray[index] = 2 * source_array[index]
     index += 1 
   end
   
@@ -40,32 +40,28 @@ def map_to_square(square_array)
   newArray = []
 
   while index < source_array.length do 
-    newArray[index] = -1 * source_array[index]
+    newArray[index] = source_array[index] ** 2
     index += 1 
   end
   
   newArray
-  
-  
 end
 
 def reduce_to_total(source_array)
   index = 0 
-  newArray = []
+  total = 0 
 
   while index < source_array.length do 
-    newArray[index] = -1 * source_array[index]
+    total += source_array[index]
     index += 1 
   end
   
-  newArray
-  
-  
+  total
 end
 
 def reduce_to_all_true(source_array)
   index = 0 
-  newArray = []
+  total = 0 
 
   while index < source_array.length do 
     newArray[index] = -1 * source_array[index]
