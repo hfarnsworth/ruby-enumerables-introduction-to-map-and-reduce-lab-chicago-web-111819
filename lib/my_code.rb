@@ -5,7 +5,10 @@ def map_to_negativize(source_array)
 
   while index < source_array.length do 
     newArray[index] = -1 * source_array[index]
-
+    index += 1 
+  end
+  
+  newArray
 end
 
 def map_to_no_change(source_array)
