@@ -35,7 +35,7 @@ def map_to_double(source_array)
   newArray
 end
 
-def map_to_square(source_array_array)
+def map_to_square(source_array)
   index = 0 
   newArray = []
 
@@ -56,7 +56,7 @@ def reduce_to_total(source_array, starting_point)
   else
     
   end
-  while index < source_array.length - index do 
+  while index < source_array.length do 
     total += source_array[index]
     index += 1 
   end
