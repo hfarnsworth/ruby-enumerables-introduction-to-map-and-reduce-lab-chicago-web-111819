@@ -50,12 +50,7 @@ end
 def reduce_to_total(source_array, starting_point = 0)
   p index = starting_point 
   total = 0 
-
-  if starting_point 
-    index = starting_point
-  else
-    
-  end
+  
   while index < source_array.length do 
     total += source_array[index]
     index += 1 
